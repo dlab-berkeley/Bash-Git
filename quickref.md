@@ -32,7 +32,7 @@ __cd \~__ cd to home directory
 
 **touch** create a file
 
-**cp** copy and paste
+**cp** copy and paste (cp -r source dest)
 
 **mv** cut and paste
 
