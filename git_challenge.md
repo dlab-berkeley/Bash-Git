@@ -8,6 +8,18 @@
 
 # Git Challenge 2
 
+1. Create a repository on your GitHub account. 
+
+2. git clone this repository to your computer. 
+
+3. Add three files named file1.txt, file2.txt, and file3.txt to your local repository. 
+
+4. Stage, commit, and push file1.txt to your remote repository. 
+
+5. Stage, commit, and push file2.txt and file3.txt to your remote repository as a single commit. 
+
+# Git Challenge 3
+
 1. Divide yourselves into groups of 3.
 
 2. Have one person act as the "maintainer" and the other two act as "contributors" A and B. 
