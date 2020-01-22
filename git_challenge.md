@@ -8,7 +8,7 @@
 
 # Git Challenge 2
 
-1. Create a repository on your GitHub account. 
+1. Create an example repository on your GitHub account. 
 
 2. git clone this repository to your computer. 
 
