@@ -6,7 +6,7 @@
 
 **pwd** print working directory
 
-**ls** list files in working directory (add file path
+**ls** list files in working directory (add file path to see that directory)
 
 **cd** change directory (defaults to home directory)
 
