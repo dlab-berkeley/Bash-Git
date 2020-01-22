@@ -28,6 +28,10 @@ __cd \~__ cd to home directory
 
 **>** redirect text to a file 
 
+**mkdir** create a directory
+
+**touch** create a file
+
 **cp** copy and paste
 
 **mv** cut and paste
