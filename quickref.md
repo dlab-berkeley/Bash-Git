@@ -111,6 +111,12 @@ Click the clipboard icon to copy the URL
 
 **git checkout -b branch_name** will create a new branch. 
 
+**git log** view commits
+
+**git log -p -2** view commit details
+
+**git status** view state of working directory and staging area
+
 # Git workflow and vocabulary
 
 **Fork → clone → push → pull request**
