@@ -1,5 +1,13 @@
 # Git Challenge 1
 
+1. git clone today's repository at https://github.com/dlab-berkeley/BashGit
+
+2. Click the green "Clone or download" button
+
+3. Click the clipboard icon to copy the URL
+
+# Git Challenge 2
+
 1. Divide yourselves into groups of 3.
 
 2. Have one person act as the "maintainer" and the other two act as "contributors" A and B. 
