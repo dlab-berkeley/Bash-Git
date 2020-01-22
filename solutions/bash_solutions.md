@@ -39,14 +39,23 @@ open ../../movies.txt
 1. Write a bash script named my_script.sh that accomplishes #1-7 from Challenge 1 but also that shows the current date and time (date) and calendar (cal) on the screen.
 
 mkdir challenge
+
 cd challenge
+
 touch movies.txt
+
 echo "Ice Age" > movies.txt
+
 cp movies.txt ../..
+
 rm movies.txt
+
 cat ../../movies.txt
+
 open ../../movies.txt
+
 date
+
 cal
 
 # Run the script
