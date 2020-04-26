@@ -122,7 +122,31 @@ The Git equivalent is [**git clone**](https://git-scm.com/docs/git-clone), but t
 
 5. Type **git pull** to ensure you have the latest remote version of the repository
 
+### Before you create your own repository, get familiar with the basic vocabulary and flow!
 
+### Fork → clone → push → pull request → merge
+
+**Fork:** A copy of a repository; you can experiment freely without affecting the original repository. You can fork a repository to make proposed changes. 
+
+**Clone:** Download an existing Git repository to your local computer, while the original still lives on the remote server. 
+
+**Pull:** synchronize your local repository with changes in the central upstream repo (even though it is cloned from the origin) ... (and pushed to the fork!)
+
+**Origin:** The URL of the upstream repopsitory
+
+**Upstream:** the maintainer's repository; once cloned, the origin becomes wherever it was cloned from
+
+**Stage:** Designate altered files to be included in the next commit.
+
+**Commit:** Revisions to a file/set of files that creates a unique ID of those changes ("hash") to track changes that are pushed. 
+
+**Push:** Send your committed local changes to a remote repository. 
+
+**Pull request:** A way to communicate changes you wish to make to a repository, used to facilitate discussion with collaborators and additional commits before it is merged into the master branch. 
+
+**Merge:** Turning a pull request's changes into a single commit and merged into the master branch. 
+
+### git commands
 
 **git add .** stage all local files to be committed to the remote repository (replace . with an individual filename if desired)
 
@@ -139,27 +163,3 @@ The Git equivalent is [**git clone**](https://git-scm.com/docs/git-clone), but t
 **git log -p -2** view commit details (press Enter to see more lines; press q to quit)
 
 **git status** view state of working directory and staging area
-
-# Git workflow and vocabulary
-
-**Fork → clone → push → pull request → merge**
-
-**Fork:** A copy of a repository; you can experiment freely without affecting the original repository. You can fork a repository to make proposed changes. 
-
-**Clone:** Download an existing Git repository to your local computer, while the original still lives on the remote server. 
-
-**Origin:** The URL of the upstream repopsitory
-
-**Upstream:** the maintainer's repository; once cloned, the origin becomes wherever it was cloned from
-
-**Pull:** synchronize your local repository with changes in the central upstream repo (even though it is cloned from the origin) ... (and pushed to the fork!)
-
-**Stage:** Designate altered files to be included in the next commit.
-
-**Commit:** Revisions to a file/set of files that creates a unique ID of those changes ("hash") to track changes that are pushed. 
-
-**Push:** Send your committed local changes to a remote repository. 
-
-**Pull request:** A way to communicate changes you wish to make to a repository, used to facilitate discussion with collaborators and additional commits before it is merged into the master branch. 
-
-**Merge:** Turning a pull request's changes into a single commit and merged into the master branch. 
