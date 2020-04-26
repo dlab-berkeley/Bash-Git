@@ -74,5 +74,5 @@ date
 
 cal
 
-# Run the script
+# Run the script (be sure you are pointing at the correct directory)
 bash my_script.sh
