@@ -150,13 +150,17 @@ For example:
 
 **Merge:** Turning a pull request's changes into a single commit and merged into the master branch. 
 
-### 3. Simplifying this process in three steps:
+### 3. Simplifying this process in five steps:
 
-**git add .** stage all local files to be committed to the remote repository (replace . with an individual filename if desired)
+1. First, **cd** into the local directory on your laptop where you wish to make changes before adding them to your remote GitHub repository. 
 
-**git commit -m "commit message"** commit your local changes to remote and add a message
+2. **git add .** changes you want to make from your laptop to the remote GitHub repository. This function will stage all local files to be committed to the remote repository (replace . with an individual filename if desired). 
 
-**git push -u origin master** push your local changes to overwrite the remote
+3. **git commit -m "commit message"** commit your local changes to remote and add a message for documentation purposes. 
+
+4. **git push -u origin master** push your local changes from your laptop to overwrite the remote GitHub repository. 
+
+5. **refresh** your GitHub repository URL to see the changes! 
 
 ### 4. Other usefull functions
 
