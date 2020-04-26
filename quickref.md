@@ -130,7 +130,7 @@ The Git equivalent is [**git clone**](https://git-scm.com/docs/git-clone), but t
 
 ### Before you create your own repository, get familiar with the basic vocabulary and flow!
 
-### Fork → clone → pull → stage → commit →push → pull request → merge
+### Fork → Clone → Pull → Stage → Commit → Push → Pull request → Merge
 
 **Fork:** A copy of a repository; you can experiment freely without affecting the original repository. You can fork a repository to make proposed changes. 
 
@@ -138,9 +138,7 @@ The Git equivalent is [**git clone**](https://git-scm.com/docs/git-clone), but t
 
 **Pull:** synchronize your local repository with changes in the central upstream repo (even though it is cloned from the origin) ... (and pushed to the fork!)
 
-**Origin:** The URL of the upstream repopsitory
-
-**Upstream:** the maintainer's repository; once cloned, the origin becomes wherever it was cloned from
+> NOTE: The **Origin** is the URL of the upstream repopsitory, but the **Upstream** is the maintainer's repository; once cloned, the origin becomes wherever it was cloned from. 
 
 **Stage:** Designate altered files to be included in the next commit.
 
@@ -152,7 +150,7 @@ The Git equivalent is [**git clone**](https://git-scm.com/docs/git-clone), but t
 
 **Merge:** Turning a pull request's changes into a single commit and merged into the master branch. 
 
-### git commands
+### Simplifying this process
 
 **git add .** stage all local files to be committed to the remote repository (replace . with an individual filename if desired)
 
@@ -169,3 +167,9 @@ The Git equivalent is [**git clone**](https://git-scm.com/docs/git-clone), but t
 **git log -p -2** view commit details (press Enter to see more lines; press q to quit)
 
 **git status** view state of working directory and staging area
+
+*****
+
+# You try it! 
+
+*****

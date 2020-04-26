@@ -1,13 +1,5 @@
 # Git Challenge 1
 
-1. git clone today's repository at https://github.com/dlab-berkeley/BashGit
-
-2. Click the green "Clone or download" button
-
-3. Click the clipboard icon to copy the URL
-
-# Git Challenge 2
-
 1. Create an example repository on your GitHub account. 
 
 2. git clone this repository to your computer. cd into this directory.
@@ -18,7 +10,7 @@
 
 5. Stage, commit, and push file2.txt and file3.txt to your remote repository as a single commit. 
 
-# Git Challenge 3
+# Git Challenge 2
 
 1. Divide yourselves into groups of 3.
 
