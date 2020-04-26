@@ -2,8 +2,6 @@
 
 **[TAB completion](https://spin.atomicobject.com/2016/02/13/bash-completion-tab/)** use it! 
 
-**PS1="\d \t \w $"** change prompt
-
 **whoami** display current user
 
 **pwd** print working directory

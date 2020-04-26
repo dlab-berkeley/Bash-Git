@@ -36,6 +36,8 @@ Accomplish the following tasks using only Bash commands:
 
 1. Learn more about customizing your prompt by clicking the links below: 
 
+**PS1="\d \t \w $"** change prompt
+
 [How to Change Your Default Terminal Prompt in Mac OS X](https://mattmazur.com/2012/01/27/how-to-change-your-default-terminal-prompt-in-mac-os-x-lion/)
 
 [terminal-mac-cheatsheet](https://github.com/0nn0/terminal-mac-cheatsheet)
