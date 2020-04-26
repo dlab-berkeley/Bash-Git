@@ -1,6 +1,6 @@
 # Bash commands
 
-### Basic commands and changing the working directory
+### 1. Basic commands and changing the working directory
 
 **[TAB completion](https://spin.atomicobject.com/2016/02/13/bash-completion-tab/)** use it! 
 
@@ -22,7 +22,7 @@ __cd \~__ cd to home directory
 
 **relative file path** = file path relative to the current working directory
 
-### Viewing and opening files
+### 2. Viewing and opening files
 
 **cat** view contents of a file
 
@@ -32,7 +32,7 @@ __cd \~__ cd to home directory
 
 **>** redirect text to a file 
 
-### Creating
+### 3. Creating
 
 **mkdir** create a directory
 
@@ -52,7 +52,7 @@ __cd \~__ cd to home directory
 
 **say** speech function (Mac)
 
-### Keyboard shortcuts
+### 4. Keyboard shortcuts
 
 **Up/down arrow keys** cycle through previous commands
 
@@ -76,17 +76,15 @@ __cd \~__ cd to home directory
 
 **Ctrl y** paste
 
-### Text searching
+### 5. Text searching
 
 **ls | grep "Lawrence" python_script.py** do (partial) pattern matching within a particular file
 
 **grep Laboratory \*** to search all files for some text (the word "Laboratory" in this case)
 
-### Running scripts 
+### 6. Running scripts 
 
 > NOTE: to run Python and R scripts you must first install Python Anaconda 3.7 (https://www.anaconda.com/distribution/) and/or R 3.6.2 (https://cloud.r-project.org/)
-
-### Running scripts
 
 **bash** execute bash script
 
