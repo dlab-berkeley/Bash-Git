@@ -112,7 +112,7 @@ If you have previously attended a D-Lab workshop you have probably downloaded so
 
 The Git equivalent is [**git clone**](https://git-scm.com/docs/git-clone), but the process is similar: 
 
-1. Visit URL for a GitHub repository, such as for upcoming [R-Fundamentals](https://github.com/dlab-berkeley/R-Fundamentals) or [Python-Fundamentals](https://github.com/dlab-berkeley/python-fundamentals) workshops. 
+1. Visit URL for a GitHub repository, such as this [BashGit repository](https://github.com/dlab-berkeley/BashGit) or for upcoming [R-Fundamentals](https://github.com/dlab-berkeley/R-Fundamentals) or [Python-Fundamentals](https://github.com/dlab-berkeley/python-fundamentals) workshops. 
 
 2. Click the green "Clone or download" button
 
