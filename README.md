@@ -1,4 +1,4 @@
-![](/logos.png)
+![](/octobash.png)
 
 # D-Lab Fast Bash/Git
 
