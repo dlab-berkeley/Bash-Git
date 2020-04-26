@@ -34,9 +34,25 @@ cat ../../movies.txt
 
 open ../../movies.txt
 
+> BONUS: what happens if you try to delete the challenge folder while there is still a file inside of it?
+
+cd challenge
+touch example.txt
+cd ..
+rm challenge **(ERROR rm: challenge: is a directory)**
+rm -r challenge **(what does the -r flag do?)
+
 # Bash Challenge 2
 
-1. Write a bash script named my_script.sh that accomplishes #1-7 from Challenge 1 but also that shows the current date and time (date) and calendar (cal) on the screen.
+# Bash Challenge 2
+
+1. Write a bash script named my_script.sh that accomplishes #1-10 from Challenge 1 but also that shows the current date and time (date) and calendar (cal) on the screen.
+
+2. Open TextEdit (Mac) or WordPac (PC) to open a blank text file. Click Format --> "Make Plain Text"
+
+3. Save this file as "my_script.sh" (without the quotations and with "Unicode UTF-8" format if possible)
+
+4. Run the script using the bash command. If done correctly, you should see three things output: 1) your favorite movie name from the movies.txt file on your Desktop, 2) the current date and time, and 3) the calendar. 
 
 mkdir challenge
 
