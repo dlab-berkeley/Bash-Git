@@ -150,26 +150,27 @@ The Git equivalent is [**git clone**](https://git-scm.com/docs/git-clone), but t
 
 **Merge:** Turning a pull request's changes into a single commit and merged into the master branch. 
 
-### Simplifying this process
+### Simplifying this process in three steps:
 
 **git add .** stage all local files to be committed to the remote repository (replace . with an individual filename if desired)
-
-**git status** view files ready to be committed
 
 **git commit -m "commit message"** commit your local changes to remote and add a message
 
 **git push -u origin master** push your local changes to overwrite the remote
 
-**git checkout -b branch_name** will create a new branch. 
+
+### Other usefull functions
+
+**git status** view files ready to be committed; run this after the "git add" function
 
 **git log** view commits
 
-**git log -p -2** view commit details (press Enter to see more lines; press q to quit)
+**git checkout -b branch_name** will create a new branch. 
 
-**git status** view state of working directory and staging area
+**git log -p -2** view commit details (press Enter to see more lines; press q to quit)
 
 *****
 
-# You try it! 
+# You try it! Complete Git Challenges 1 and 2 from the git_challenge.md file
 
 *****
