@@ -106,7 +106,7 @@ Rscript scripts/r_script.R
 
 # Git commands
 
-### git clone
+### 1. git clone
 
 If you have previously attended a D-Lab workshop you have probably downloaded some workshop materials from GitHub by clicking a download button, downloading the .ZIP file, and then extracting that .ZIP file to your Desktop. 
 
@@ -128,7 +128,7 @@ The Git equivalent is [**git clone**](https://git-scm.com/docs/git-clone), but t
 
 5. Type **git pull** to ensure you have the latest remote version of the repository
 
-### Before you create your own repository, get familiar with the basic vocabulary and flow!
+### 2. Before you create your own repository, familiarize yourself with the basic vocabulary and flow!
 
 ### Fork → Clone → Pull → Stage → Commit → Push → Pull request → Merge
 
@@ -150,7 +150,7 @@ The Git equivalent is [**git clone**](https://git-scm.com/docs/git-clone), but t
 
 **Merge:** Turning a pull request's changes into a single commit and merged into the master branch. 
 
-### Simplifying this process in three steps:
+### 3. Simplifying this process in three steps:
 
 **git add .** stage all local files to be committed to the remote repository (replace . with an individual filename if desired)
 
@@ -158,8 +158,7 @@ The Git equivalent is [**git clone**](https://git-scm.com/docs/git-clone), but t
 
 **git push -u origin master** push your local changes to overwrite the remote
 
-
-### Other usefull functions
+### 4. Other usefull functions
 
 **git status** view files ready to be committed; run this after the "git add" function
 
