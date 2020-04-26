@@ -100,7 +100,7 @@ Rscript scripts/r_script.R
 
 *****
 
-# Try Bash challenges 1 and 2 from the bash_challenge.md file
+# You try it! Complete Bash challenges 1 and 2 from the bash_challenge.md file
 
 *****
 
