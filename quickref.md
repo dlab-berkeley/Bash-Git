@@ -107,6 +107,8 @@ Click the clipboard icon to copy the URL
 
 **git add .** stage all local files to be committed to the remote repository (replace . with an individual filename if desired)
 
+**git status** view files ready to be committed
+
 **git commit -m "commit message"** commit your local changes to remote and add a message
 
 **git push -u origin master** push your local changes to overwrite the remote
