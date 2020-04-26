@@ -128,7 +128,7 @@ For example:
 
 5. Type **git pull** to ensure you have the latest remote version of the repository
 
-### 2. Before you create your own repository, familiarize yourself with the basic vocabulary and flow!
+### 2. Before you create your own repository, familiarize yourself with the basic workflow jargons!
 
 ### Fork → Clone → Pull → Stage → Commit → Push → Pull request → Merge
 
