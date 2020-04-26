@@ -130,7 +130,7 @@ The Git equivalent is [**git clone**](https://git-scm.com/docs/git-clone), but t
 
 ### Before you create your own repository, get familiar with the basic vocabulary and flow!
 
-### Fork → clone → push → pull request → merge
+### Fork → clone → pull → stage → commit →push → pull request → merge
 
 **Fork:** A copy of a repository; you can experiment freely without affecting the original repository. You can fork a repository to make proposed changes. 
 
