@@ -164,9 +164,9 @@ The Git equivalent is [**git clone**](https://git-scm.com/docs/git-clone), but t
 
 **git log** view commits
 
-**git checkout -b branch_name** will create a new branch. 
-
 **git log -p -2** view commit details (press Enter to see more lines; press q to quit)
+
+**git checkout -b branch_name** will create a new branch. 
 
 *****
 
