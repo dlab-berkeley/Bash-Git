@@ -22,7 +22,7 @@ __cd \~__ cd to home directory
 
 **cat** view contents of a file
 
-**open** open a file (start on PC)
+**open** open a file (**start** on PC)
 
 **echo** print something 
 
