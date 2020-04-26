@@ -117,13 +117,13 @@ Click the clipboard icon to copy the URL
 
 **git log** view commits
 
-**git log -p -2** view commit details
+**git log -p -2** view commit details (press Enter to see more lines; press q to quit)
 
 **git status** view state of working directory and staging area
 
 # Git workflow and vocabulary
 
-**Fork → clone → push → pull request**
+**Fork → clone → push → pull request → merge**
 
 **Fork:** A copy of a repository; you can experiment freely without affecting the original repository. You can fork a repository to make proposed changes. 
 
