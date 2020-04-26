@@ -1,5 +1,7 @@
 # Bash commands
 
+### Basic commands and changing the working directory
+
 **[TAB completion](https://spin.atomicobject.com/2016/02/13/bash-completion-tab/)** use it! 
 
 **whoami** display current user
@@ -20,6 +22,8 @@ __cd \~__ cd to home directory
 
 **relative file path** = file path relative to the current working directory
 
+### Viewing and opening files
+
 **cat** view contents of a file
 
 **open** open a file (**start** on PC)
@@ -27,6 +31,8 @@ __cd \~__ cd to home directory
 **echo** print something 
 
 **>** redirect text to a file 
+
+### Creating
 
 **mkdir** create a directory
 
@@ -46,11 +52,7 @@ __cd \~__ cd to home directory
 
 **say** speech function (Mac)
 
-**bash** execute bash script
-
-**python** execute Python script
-
-**Rscript** execute R script
+### Keyboard shortcuts
 
 **Up/down arrow keys** cycle through previous commands
 
@@ -74,24 +76,31 @@ __cd \~__ cd to home directory
 
 **Ctrl y** paste
 
+### Text searching
+
 **ls | grep "Lawrence" python_script.py** do (partial) pattern matching within a particular file
 
 **grep Laboratory \*** to search all files for some text (the word "Laboratory" in this case)
 
-# Running scripts 
+### Running scripts 
+
 > NOTE: to run Python and R scripts you must first install Python Anaconda 3.7 (https://www.anaconda.com/distribution/) and/or R 3.6.2 (https://cloud.r-project.org/)
 
-**Bash**
+### Running scripts
+
+**bash** execute bash script
 
 bash scripts/bash.sh
 
-**Python**
+**python** execute Python script
 
 python scripts/python_script.py
 
-**R**
+**Rscript** execute R script
 
 Rscript scripts/r_script.R
+
+*****
 
 # Git commands
 
