@@ -1,3 +1,5 @@
+![](/logos.png)
+
 # D-Lab Fast Bash/Git
 
 D-Lab's fast introduction to Bash + Git, a distillation of our Programming Fundamentals and Git Fundamentals workshops: 
