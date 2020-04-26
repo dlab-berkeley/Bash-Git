@@ -35,3 +35,7 @@
 10. All people in each group should add an issue using the "Issues" tab. Did you each receive emails about the creation of these issues? 
 
 11. Click the "commits" tab to see changes made by your group members. 
+
+# Git Challenge 3
+
+# Star this repository if you learned something! 

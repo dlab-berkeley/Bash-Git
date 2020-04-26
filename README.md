@@ -14,6 +14,7 @@ D-Lab's fast introduction to Bash + Git, a distillation of our Programming Funda
 
 **OSX**
 - Your system might have git installed already. Test this by opening a terminal and typing git
+
 If not, install xcode (https://apps.apple.com/us/app/xcode/id497799835?mt=12) from the app store. When this process completes, again open a terminal and type git to see if the process worked correctly
 
 **Windows**
