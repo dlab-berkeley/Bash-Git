@@ -100,7 +100,9 @@ Rscript scripts/r_script.R
 
 *****
 
-# Try 
+# Try Bash challenges 1 and 2 from the bash_challenge.md file
+
+*****
 
 # Git commands
 
