@@ -122,9 +122,9 @@ The Git equivalent is [**git clone**](https://git-scm.com/docs/git-clone), but t
 
 For example: 
 
-> git clone git@github.com:dlab-berkeley/R-Fundamentals.git
+> `$`git clone git@github.com:dlab-berkeley/R-Fundamentals.git
 
-> git clone git@github.com:dlab-berkeley/python-fundamentals.git
+> `$`git clone git@github.com:dlab-berkeley/python-fundamentals.git
 
 5. Type **git pull** to ensure you have the latest remote version of the repository
 
