@@ -51,13 +51,23 @@ Accomplish the following tasks using only Bash commands:
 > NOTE: requires [homebrew](https://brew.sh/) installation
 
 brew install gnuplot
+
 gnuplot
+
 set terminal dumb
+
 plot sin(x)
+
 exit
 
+
 or
+
+
 $ set to 'x11'
+
 gnuplot
+
 plot sin(x)
+
 exit

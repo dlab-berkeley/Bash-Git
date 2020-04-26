@@ -100,17 +100,27 @@ Rscript scripts/r_script.R
 
 *****
 
+# Try 
+
 # Git commands
 
-Visit URL for a GitHub repository
+### git clone
 
-Click the green "Clone or download" button
+If you have previously attended a D-Lab workshop you have probably downloaded some workshop materials from GitHub by clicking a download button, downloading the .ZIP file, and then extracting that .ZIP file to your Desktop. 
 
-Click the clipboard icon to copy the URL
+The Git equivalent is [**git clone**](https://git-scm.com/docs/git-clone), but the process is similar: 
 
-**git clone URL** clone repository
+1. Visit URL for a GitHub repository, such as for upcoming [R-Fundamentals](https://github.com/dlab-berkeley/R-Fundamentals) or [Python-Fundamentals](https://github.com/dlab-berkeley/python-fundamentals) workshops. 
 
-**git pull** ensure you have the latest remote version of the repository
+2. Click the green "Clone or download" button
+
+3. However, this time click the clipboard icon to copy the URL
+
+4. At your Bash prompt type **git clone URL** to clone the repository (paste the URL)
+
+5. Type **git pull** to ensure you have the latest remote version of the repository
+
+
 
 **git add .** stage all local files to be committed to the remote repository (replace . with an individual filename if desired)
 
