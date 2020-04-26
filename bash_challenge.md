@@ -60,9 +60,11 @@ plot sin(x)
 
 exit
 
+*****
 
 or
 
+*****
 
 $ set to 'x11'
 
