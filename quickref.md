@@ -76,7 +76,7 @@ __cd \~__ cd to home directory
 
 **ls | grep "Lawrence" python_script.py** do (partial) pattern matching within a particular file
 
-**grep Laboratory \* ** to search all files for some text
+**grep Laboratory \*** to search all files for some text
 
 # Running scripts 
 > NOTE: to run Python and R scripts you must first install Python Anaconda 3.7 (https://www.anaconda.com/distribution/) and/or R 3.6.2 (https://cloud.r-project.org/)
