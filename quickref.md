@@ -120,6 +120,12 @@ The Git equivalent is [**git clone**](https://git-scm.com/docs/git-clone), but t
 
 4. At your Bash prompt type **git clone URL** to clone the repository (paste the URL)
 
+> For example: 
+
+> git clone git@github.com:dlab-berkeley/R-Fundamentals.git
+
+> git clone git@github.com:dlab-berkeley/python-fundamentals.git
+
 5. Type **git pull** to ensure you have the latest remote version of the repository
 
 ### Before you create your own repository, get familiar with the basic vocabulary and flow!
