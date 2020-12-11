@@ -26,6 +26,14 @@ D-Lab's fast introduction to Bash + Git, a distillation of our Programming Funda
 **Create a GitHub account**
 - All participants should create a free GitHub account here: https://github.com/join?source=header-home
 
+# Download these materials
+
+- Click the green "code" button
+- Click "Download zip"
+- Extract the zip file someplace familiar (we recommend Desktop)
+
+> If you are a git user, simple `git clone git@github.com:dlab-berkeley/BashGit.git`
+
 # Learn more!
 
 Software Carpentry: https://software-carpentry.org/lessons/
