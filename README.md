@@ -34,7 +34,7 @@ D-Lab's fast introduction to Bash + Git, a distillation of our Programming Funda
 
 > If you are a git user, simply `git clone git@github.com:dlab-berkeley/BashGit.git`
 
-# Are you having trouble opening a Bash or Zsh terminal or GitBash on your personal computer? 
+# Are you having trouble opening a Bash, Zsh, or GitBash terminal on your personal computer? 
 
 Try these remote solutions instead:
 
