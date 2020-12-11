@@ -50,3 +50,7 @@ Software Carpentry: https://software-carpentry.org/lessons/
 En español: 
 - La Terminal de Unix: https://swcarpentry.github.io/shell-novice-es/
 - El Control de Versiones con Git: https://swcarpentry.github.io/git-novice-es/
+
+Historical information
+- History of the computer mouse: https://history-computer.com/ModernComputer/Basis/mouse.html
+- The Mother of All Demos: https://www.youtube.com/watch?v=yJDv-zdhzMY
