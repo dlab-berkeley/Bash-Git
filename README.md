@@ -34,6 +34,13 @@ D-Lab's fast introduction to Bash + Git, a distillation of our Programming Funda
 
 > If you are a git user, simply `git clone git@github.com:dlab-berkeley/BashGit.git`
 
+# Are you having trouble opening a Bash or Zsh terminal or GitBash on your personal computer? 
+
+Try these remote solutions instead:
+
+- If you have a CalNet ID, login to your [DataHub](https://datahub.berkeley.edu) and click "New" --> "Terminal"
+- If you do not have a CalNet ID, visit the [CoCalc online Linux Terminal](https://cocalc.com/doc/terminal.html) and click the "Run Terminal Now" button
+
 # Learn more!
 
 Software Carpentry: https://software-carpentry.org/lessons/
