@@ -32,7 +32,7 @@ D-Lab's fast introduction to Bash + Git, a distillation of our Programming Funda
 - Click "Download zip"
 - Extract the zip file someplace familiar (we recommend Desktop)
 
-> If you are a git user, simple `git clone git@github.com:dlab-berkeley/BashGit.git`
+> If you are a git user, simply `git clone git@github.com:dlab-berkeley/BashGit.git`
 
 # Learn more!
 
