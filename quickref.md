@@ -142,9 +142,9 @@ For example:
 
 ### Fork → Clone → Pull → Stage → Commit → Push → Pull request → Merge
 
-**Fork:** A copy of a repository; you can experiment freely without affecting the original repository. You can fork a repository to make proposed changes. 
+**Fork:** An editable copy of a repository on GitHub; you can experiment freely without affecting the original repository. You can fork a repository to make proposed changes. 
 
-**Clone:** Download an existing Git repository to your local computer, while the original still lives on the remote server. 
+**Clone:** An editable copy of a repository you download to your local computer; the original still lives on the remote server. 
 
 **Pull:** synchronize your local repository with changes in the central upstream repo (even though it is cloned from the origin) ... (and pushed to the fork!)
 
