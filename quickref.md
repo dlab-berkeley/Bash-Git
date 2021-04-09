@@ -88,7 +88,7 @@ __cd \~__ cd to home directory
 
 ### 5. Text searching
 
-**ls | grep "Lawrence" python_script.py** do (partial) pattern matching within a particular file
+**ls | grep "Lawrence" python_script.py** do (partial) pattern matching within a particular folder
 
 **grep Laboratory \*** to search all files for some text (the word "Laboratory" in this case)
 
