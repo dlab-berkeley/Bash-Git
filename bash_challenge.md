@@ -34,9 +34,11 @@ Accomplish the following tasks using only Bash commands:
 
 # Bash Challenge 3 - going further to customize your prompt
 
-1. Learn more about customizing your prompt by clicking the links below: 
+1. Copy/paste the below code to change your prompt to display your working directory file path: 
 
-**PS1="\d \t \w $"** change prompt
+**export PS1="$(pwd) \$"** change prompt
+
+2. Learn more about customizing your prompt by clicking the links below. 
 
 [How to Change Your Default Terminal Prompt in Mac OS X](https://mattmazur.com/2012/01/27/how-to-change-your-default-terminal-prompt-in-mac-os-x-lion/)
 
