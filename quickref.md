@@ -1,14 +1,14 @@
 # Bash commands
 
-First things first! Your prompt (where you will enter Bash commands) can be confusing. To change it to the file path to your working directory followed by a dollar sign, try typing out or copy/pasting the below code: 
+First things first! Your prompt (where you will enter Bash commands) can be confusing. To change it to the file path of your working directory followed by a dollar sign, type or copy/paste the below code: 
 
-First, type or copy/paste `PS1="\w\$ "` into your prompt and press Enter.
+1. Type or copy/paste `PS1="\w\$ "` into your prompt and press Enter.
 
-Second, type `exec bash` into your prompt and press Enter. 
+2. Then, type `exec bash` into your prompt and press Enter. 
 
 Now, you will have a record of your location as you move around your computer! 
 
-> NOTE: to display _only_ the current working directoy - not the path - use a capital letter W in the code above instead :) 
+> NOTE: to display _only_ the current working directoy - not the path - use a capital letter W in step 1 above instead :) 
 
 ### 1. Basic commands and changing the working directory
 
