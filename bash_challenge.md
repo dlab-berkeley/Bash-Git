@@ -34,9 +34,13 @@ Accomplish the following tasks using only Bash commands:
 
 # Bash Challenge 3 - going further to customize your prompt
 
-1. Copy/paste the below code to change your prompt to display your working directory file path: 
+1. Remember to type or copy/paste the below code to change your prompt to display your working directory file path followed by a dollar sign: 
 
-**export PS1="$(pwd) \$"** change prompt
+`PS1="\w\$ "`
+
+and then type
+
+`exec bash`
 
 2. Learn more about customizing your prompt by clicking the links below. 
 
