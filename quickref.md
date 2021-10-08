@@ -1,15 +1,5 @@
 # Bash commands
 
-First things first! Your prompt (where you will enter Bash commands) can be confusing. To change it to the file path of your working directory followed by a dollar sign, type or copy/paste the below code: 
-
-1. Type or copy/paste `PS1="\w\$ "` into your prompt and press Enter.
-
-2. Then, type `exec bash` into your prompt and press Enter. 
-
-Now, you will have a record of your location as you move around your computer! 
-
-> NOTE: to display _only_ the current working directoy - not the path - use a capital letter W in step 1 above instead :) 
-
 ### 1. Basic commands and changing the working directory
 
 **[TAB completion](https://spin.atomicobject.com/2016/02/13/bash-completion-tab/)** use it! 
@@ -58,10 +48,6 @@ __cd \~__ cd to home directory
 
 **man pwd** access help files (spacebar to advance, q to quit)
 
-**screencapture** take screenshot
-
-**say** speech function (Mac)
-
 ### 4. Keyboard shortcuts
 
 **Up/down arrow keys** cycle through previous commands
@@ -86,13 +72,7 @@ __cd \~__ cd to home directory
 
 **Ctrl y** paste
 
-### 5. Text searching
-
-**ls | grep "Lawrence" python_script.py** do (partial) pattern matching within a particular folder
-
-**grep Laboratory \*** to search all files for some text (the word "Laboratory" in this case)
-
-### 6. Running scripts 
+### 5. Running scripts 
 
 > NOTE: to run Python and R scripts you must first install Python Anaconda 3.7 (https://www.anaconda.com/distribution/) and/or R 3.6.2 (https://cloud.r-project.org/)
 
