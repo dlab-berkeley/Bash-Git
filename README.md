@@ -54,3 +54,10 @@ En español:
 Historical information
 - History of the computer mouse: https://history-computer.com/ModernComputer/Basis/mouse.html
 - The Mother of All Demos: https://www.youtube.com/watch?v=yJDv-zdhzMY
+
+# Contributors
+
+* [Evan Muzzall](https://dlab.berkeley.edu/people/evan-muzzall)
+* [Aniket Kesari](https://dlab.berkeley.edu/people/aniket-kesari)
+* [Aaron Culich](https://dlab.berkeley.edu/people/aaron-culich)
+* [Pratik Sachdeva](https://dlab.berkeley.edu/people/pratik-sachdeva)
