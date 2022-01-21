@@ -1,63 +1,80 @@
-![](/octobash.png)
+# D-Lab's Bash and Git Workshop
 
-# D-Lab Fast Bash + Git
+This repository contains the materials for D-Lab’s Bash and Git workshop, a fast
+introduction to using the terminal for `git`. No prior experience in either Bash
+or Git is necessary.
 
-D-Lab's fast introduction to Bash + Git, a distillation of our Programming Fundamentals and Git Fundamentals workshops: 
+## Workshop Goal
 
-- Programming Fundamentals: https://github.com/dlab-berkeley/programming-fundamentals
+In this workshop, we provide an introduction to using bash, the Bourne-Again
+Shell, which is used to interact with your computer via a terminal, and `git`, a
+version control software. This workshop is designed to provide a fast (3 hours)
+introduction to both these topics.
 
-- Git Fundamentals: https://github.com/dlab-berkeley/git-fundamentals
+## Installation Instructions
 
-# Technology requirements
+You'll need to make sure `git` is installed on your system. General instructions
+are available on [Github](https://github.com/git-guides/install-git).
 
-- Laptop required
+* **Windows:** You can install `git` via [git for
+  Windows](https://gitforwindows.org).
+* **Mac:** It is very likely `git` should already come installed with your Mac.
+  You can open a terminal and run `git version` to make sure. If it's not
+  installed, you can install it using [Homebrew](https://brew.sh).
+* **Linux:** You can use whatever package management system your distribution
+  uses to install `git`. For Debian/Ubuntu, this is `apt`. For Fedora, this will
+  be `dnf`. 
 
-**OSX**
-- Your system might have git installed already. Test this by opening a terminal and typing git
+Once `git` is installed on your computer, open up the Markdown file
+`lessons/01_getting_started.md` to create a Github account and set up
+authentication tokens. Then, we'll download these materials using a `git clone`
+step.
+# Is Bash or Git not Working on Your Computer?
 
-- If not, install xcode (https://apps.apple.com/us/app/xcode/id497799835?mt=12) from the app store. When this process completes, again open a terminal and type git to see if the process worked correctly
+If you do not have `git` installed and the materials loaded on your workshop by
+the time it starts, you can use the UC Berkeley Datahub to run the materials for
+these lessons. You can access the DataHub by clicking [this link](Obtain link
+using nbgitpuller).
 
-**Windows**
-- Windows users must install git from here: https://git-scm.com/downloads
+The DataHub downloads this repository, along with any necessary packages, and
+allows you to run the materials in an RStudio instance on UC Berkeley's servers.
+No installation is necessary from your end - you only need an internet browser
+and a CalNet ID to log in. By using the DataHub, you can save your work and come
+back to it at any time. When you want to return to your saved work, just go
+straight to [DataHub](https://datahub.berkeley.edu), sign in, and you click on
+the `[Workshop-Name]` folder.
 
-**Linux**
-- Use the package manager by typing: $ apt-get install git
+# Additional Resources
 
-**Create a GitHub account**
-- All participants should create a free GitHub account here: https://github.com/join?source=header-home
+[Software Carpentry](https://software-carpentry.org/lessons/):
+* [The Unix Shell](http://swcarpentry.github.io/shell-novice/) ([La Terminal de
+  Unix](https://swcarpentry.github.io/shell-novice-es/))
+* [Version Control with Git](http://swcarpentry.github.io/git-novice/) ([El
+  Control de Versiones con Git](https://swcarpentry.github.io/git-novice-es/))
 
-# Download these materials
+# About the UC Berkeley D-Lab
 
-- Click the green "Code" button
-- Click "Download ZIP"
-- Extract the zip file someplace familiar (we recommend Desktop)
+D-Lab works with Berkeley faculty, research staff, and students to advance
+data-intensive social science and humanities research. Our goal at D-Lab is to
+provide practical training, staff support, resources, and space to enable you to
+use R for your own research applications. Our services cater to all skill levels
+and no programming, statistical, or computer science backgrounds are necessary.
+We offer these services in the form of workshops, one-to-one consulting, and
+working groups that cover a variety of research topics, digital tools, and
+programming languages.  
 
-> If you are a git user, simply `git clone git@github.com:dlab-berkeley/BashGit.git`
-
-# Are you having trouble opening a Bash, Zsh, or GitBash terminal on your personal computer? 
-
-Try these remote solutions instead:
-
-- If you have a CalNet ID, login to your [DataHub](https://datahub.berkeley.edu) and click "New" --> "Terminal"
-- If you do not have a CalNet ID, visit the [CoCalc online Linux Terminal](https://cocalc.com/doc/terminal.html) and click the "Run Terminal Now" button
-
-# Learn more!
-
-Software Carpentry: https://software-carpentry.org/lessons/
-- The Unix Shell: http://swcarpentry.github.io/shell-novice/
-- Version Control with Git: http://swcarpentry.github.io/git-novice/
-
-En español: 
-- La Terminal de Unix: https://swcarpentry.github.io/shell-novice-es/
-- El Control de Versiones con Git: https://swcarpentry.github.io/git-novice-es/
-
-Historical information
-- History of the computer mouse: https://history-computer.com/ModernComputer/Basis/mouse.html
-- The Mother of All Demos: https://www.youtube.com/watch?v=yJDv-zdhzMY
+Visit the [D-Lab homepage](https://dlab.berkeley.edu/) to learn more about us.
+You can view our [calendar](https://dlab.berkeley.edu/events/calendar) for
+upcoming events, learn about how to utilize our
+[consulting](https://dlab.berkeley.edu/consulting) and
+[data](https://dlab.berkeley.edu/data) services, and check out upcoming
+[workshops](https://dlab.berkeley.edu/events/workshops).
 
 # Contributors
 
+* [Pratik Sachdeva](https://dlab.berkeley.edu/people/pratik-sachdeva)
 * [Evan Muzzall](https://dlab.berkeley.edu/people/evan-muzzall)
 * [Aniket Kesari](https://dlab.berkeley.edu/people/aniket-kesari)
 * [Aaron Culich](https://dlab.berkeley.edu/people/aaron-culich)
-* [Pratik Sachdeva](https://dlab.berkeley.edu/people/pratik-sachdeva)
+
+
