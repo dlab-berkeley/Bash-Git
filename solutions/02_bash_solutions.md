@@ -20,12 +20,12 @@ Use bash commands to do the following:
 
 5. Add your favorite movie to this file using `vim`, or some other text editor.
 
-> `vim movies.txt`
-> Press `i` to enter indent mode.
-> Type in the movie.
-> Press `ESC` to exit indent mode.
-> Press `:` to enter command mode.
-> Type `wq` and press enter.
+> `vim movies.txt` <br>
+> Press `i` to enter indent mode. <br>
+> Type in the movie. <br>
+> Press `ESC` to exit indent mode. <br>
+> Press `:` to enter command mode. <br>
+> Type `wq` and press enter. <br>
 > `cat movies.txt`
 
 6. Copy this file to your home directory.
@@ -39,7 +39,7 @@ Use bash commands to do the following:
 8. Delete the `challenge` folder. What flags do you have to add to
    remove a folder?
 
-> We need to move out of the `challenge` folder.
-> `cd ..`
-> *Then* we can remove the folder:
+> We need to move out of the `challenge` folder. <br>
+> `cd ..` <br>
+> *Then* we can remove the folder: <br>
 > `rm -rf challenge`
