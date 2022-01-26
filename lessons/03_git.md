@@ -1,4 +1,20 @@
-# Git commands
+# Why Use Version Control?
+
+Imagine that you’re collaborating with one of your labmates on a project. You’re
+both making changes to functions in the codebase. At one point, you both have
+changed the same lines in a particular function. How do you go about merging
+your changes so that you’re both using the same code? 
+
+This is the rationale for version control: a system that manages and records
+changes to a codebase. The most commonly used version control system is called
+git (others include Mercurial and SVN). git is often used in tandem with a
+cloud-based hosting platform - the most common is Github (but others include
+Gitlab and Bitbucket). The benefit to using Github is that it makes it easier to
+collaborate on code with others via its web platform.
+
+In 
+
+
 
 ### 1. git clone
 
