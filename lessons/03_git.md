@@ -12,31 +12,36 @@ cloud-based hosting platform - the most common is Github (but others include
 Gitlab and Bitbucket). The benefit to using Github is that it makes it easier to
 collaborate on code with others via its web platform.
 
-In 
+In this lesson, we're going to use the terminal (i.e., bash) to make updates
+
+There are several different workflows in which you might imagine using `git`,
+particularly in an academic setting. These include:
+
+1. Working on a repository that is your own repo. You expect that you will
+   generally be the only person developing code for this repository.
+2. Working on a repository that several people - perhaps some collaborators -
+   are working on concurrently.
+3. Working on a repository that *many* people (e.g., at least dozens) are
+   involved in. This may be, for example, an open-source project to which you
+   contribute changes. We will not cover this approach in this workshop, as the
+   details may be specific to the project you're working on. However, the
+   principles from approach #2 hold here.
 
 
+# Personal Workflow
 
-### 1. git clone
+![personal_workflow](../img/personal.png)
 
-If you have previously attended a D-Lab workshop you have probably downloaded some workshop materials from GitHub by clicking a download button, downloading the .ZIP file, and then extracting that .ZIP file to your Desktop. 
+![committing](../img/committing.jpeg)
 
-The Git equivalent is [**git clone**](https://git-scm.com/docs/git-clone), but the process is similar: 
+Each step in the Personal workflow is actually comprised of a set of smaller steps. Before we go through each step, we need to make a distinction between two kinds of repositories: there's the local repository and the remote repository. The local repository is easy: that's the version of the code that sits on your computer. The remote repository, meanwhile, is any version of the repository that lies on some other machine. In this context, it's almost always going to refer to the version that sits on Github's servers.
 
-1. Visit a GitHub repository, like for this [BashGit workshop](https://github.com/dlab-berkeley/BashGit) or for upcoming [R-Fundamentals](https://github.com/dlab-berkeley/R-Fundamentals) or [Python-Fundamentals](https://github.com/dlab-berkeley/python-fundamentals) workshops. 
+So, when we're making changes to a repository, there's two versions that need to stay in sync with each other: the local and the remote. The steps we outline keep track of those changes.
 
-2. Click the green "Clone or download" button
 
-3. However, this time click the clipboard icon to copy the URL
+# Collaborative Workflow
 
-4. At your Bash prompt type **git clone URL** to clone the repository (paste the URL)
 
-For example: 
-
-> `$`git clone git@github.com:dlab-berkeley/R-Fundamentals.git
-
-> `$`git clone git@github.com:dlab-berkeley/python-fundamentals.git
-
-5. Type **git pull** to ensure you have the latest remote version of the repository
 
 ### 2. Before you create your own repository, familiarize yourself with the basic workflow jargons!
 
@@ -71,19 +76,3 @@ For example:
 4. **git push -u origin master** push your local changes from your laptop to overwrite the remote GitHub repository. 
 
 5. **refresh** your GitHub repository URL to see the changes! 
-
-### 4. Other usefull functions
-
-**git status** view files ready to be committed; run this after the "git add" function
-
-**git log** view commits
-
-**git log -p -2** view commit details (press Enter to see more lines; press q to quit)
-
-**git checkout -b branch_name** will create a new branch. 
-
-*****
-
-# You try it! Complete Git Challenges 1 and 2 from the git_challenge.md file
-
-*****
