@@ -61,5 +61,5 @@ then Github will go ahead and place the repository on your computer.
 
 You're ready to go, now! We've already used the terminal a little bit in getting
 set up. The next part of the workshop is learning more details about how to use
-the terminal with Bash. Go ahead an open up `02_bash_challenge.md` and follow
+the terminal with Bash. Go ahead an open up `02_bash.md` and follow
 the steps there!
