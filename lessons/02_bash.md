@@ -1,9 +1,11 @@
 # Bash: The **B**ourne **A**gain **SH**ell
 
 We're starting this workshop with a brief tutorial on bash, which is short for
-the "Bourne Again Shell".  Let's dissect that name. The "Bourne Again" part just
-means that it's second version of a previous shell called "Bourne". The
-important part to focus on is the "Shell". What exactly is that?
+the "Bourne Again Shell".
+
+Let's dissect that name. The "Bourne Again" part just means that it's second
+version of a previous shell called "Bourne". The important part to focus on is
+the "Shell". What exactly is that?
 
 Let's get some terminology out of the way:
 
@@ -49,7 +51,7 @@ The anatomy of a basic terminal prompt is simple: you'll usually have a username
 (leftmost) followed by an at symbol (@), followed by the hostname (a fancy way
 of saying what machine you're on), and then a prompt, which might be a dollar
 sign followed by a rectangular block. The dollar sign (or whatever prompt symbol
-is there) indicates where user input start. The rectangular block is your
+is there) indicates where user input starts. The rectangular block is your
 cursor.
 
 Your prompt might not look like this! Some prompts can be pretty fancy, and
@@ -79,16 +81,17 @@ Being in this folder is nice, but what if we wanted to move to another location?
 Luckily, there's a command for that: **cd**, for  **c**hange **d**irectory. But
 there are several ways to use `cd`.
 
-1. `cd ..` This is moving to one directory above our current location.
-2. `cd solutions` This is moving to the `solutions` folder (if you're not in the
-   `Bash-Git` folder, use some other folder name).
-3. `cd` No extra input! What folder do you move to? How can you check?
+1. `cd ..`: This is moving to one directory above our current location.
+2. `cd solutions`: This is moving to the `solutions` folder (if you're not in
+   the `Bash-Git` folder, use some other folder name).
+3. `cd`: No extra input! What folder do you move to? How can you check?
 4. Navigate back to the `Bash-Git` folder using `cd` and a chain of folders.
-5. `cd ~` What location do you end up in? This is the **home** directory - we've
-   already been here! The tilde `~` is just shorthand for this special location.
+5. `cd ~`: What location do you end up in? This is the **home** directory -
+   we've already been here! The tilde `~` is just shorthand for this special
+   location.
 
-Using `cd` with no input A chain of folders that specifies a location is called
-a **file path**. There are two ways of specifying file paths:
+A chain of folders that specifies a location is called a **file path**. There
+are two ways of specifying file paths:
 
 * **Absolute file paths** are relative to the **root directory**, which is the
   uppermost level of a file system. Absolute file paths always start with a
@@ -110,11 +113,11 @@ Try the following commands:
 * `touch test.txt`: This will create a file named `test.txt`.
 * `cp`: Copy and paste. There are two arguments here: the source and the
   destination. 
-  * Trying moving `test.txt` to the `solutions` folder.
+  * Trying copying `test.txt` to the `solutions` folder.
 * `cp -r`: Bash commands sometimes come with **flags**, which are additional
-  specifications to how we run the command. Flags are always preceded by a dash,
-  or two dashes. The `-r` flag for `cp` indicates we should do a recursive copy:
-  this is specifically for folder.
+  specifications to how we run the command. Flags are always preceded by one or
+  two dashes. The `-r` flag for `cp` indicates we should do a recursive copy.
+  This is specifically for folders, which may have multiple copies to do.
   * Copy the `test` folder to the `solutions` folder.
 * `mv`: Moving a file is just like copying, but it does not leave a version in
   the source.
@@ -128,7 +131,7 @@ Try the following commands:
 
 How can we view files? This depends on the type of file we're working with,
 which is specified by the extension. Most files we'll work with are composed of
-some kind of text - e.g., `.txt` files, `.py` files, `.R` files, etc. Here are
+some kind of text such as `.txt` files, `.py` files, `.R` files, etc. Here are
 some approaches to view their contents quickly:
 
 * `cat`: View all the contents of a file. This command is short for

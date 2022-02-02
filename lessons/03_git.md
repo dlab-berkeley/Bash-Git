@@ -7,12 +7,13 @@ your changes so that you’re both using the same code?
 
 This is the rationale for version control: a system that manages and records
 changes to a codebase. The most commonly used version control system is called
-git (others include Mercurial and SVN). git is often used in tandem with a
+`git` (others include Mercurial and SVN). `git` is often used in tandem with a
 cloud-based hosting platform - the most common is Github (but others include
 Gitlab and Bitbucket). The benefit to using Github is that it makes it easier to
 collaborate on code with others via its web platform.
 
-In this lesson, we're going to use the terminal (i.e., bash) to make updates
+In this lesson, we're going to use the terminal (i.e., bash) to make updates to
+a repository using `git` and Github.
 
 There are several different workflows in which you might imagine using `git`,
 particularly in an academic setting. These include:
@@ -69,7 +70,8 @@ Let's go through the process of making changes to a repository, step by step.
 2. **Cloning.** We've done this with the `Bash-Git` repo. Cloning a repository
    means taking a remote repository, and copying it to our local machine to
    create a local repository. Let's clone the repo we just created. Open up a
-   terminal and run the command: `git clone `. 
+   terminal and run the command: `git clone [REPO-LINK]`, filling in the
+   `[REPO-LINK]` with the appropriate name provided by Github.
 
 3. **Checking the status.** A useful command to always run is `git status`. This
    will provide a summary of what's going on in your repo. Run it to see what
@@ -81,10 +83,12 @@ Let's go through the process of making changes to a repository, step by step.
    file called `text.txt`, which has some text in it of your choosing. Then, run
    `git status` and see what happens.
 
-5. **Adding a change.** The first step to codifying this change in the `git`
-   history is to add it. Once a change is "added", it is placed in a staging
-   area until it is ready for the next step. To add the file, run `git add
-   test.txt`. Then run `git status` to see what happened.
+5. **Staging a change.** The first step to codifying this change in the `git`
+   history is to stage it, which is done with the `git add` command. Once a
+   change is "added", it is placed in a staging area. You can think of this as a
+   "proposal" for the next record in the Git history. The proposal is made
+   permanent in the following step. To add the file, run `git add test.txt`.
+   Then run `git status` to see what happened.
 
 6. **Committing a change.** Next, once we've added all the changes we want to
    the staging area, we need to commit them. Committing changes entails taking a
@@ -119,10 +123,11 @@ with each other.
 
 Collaborative workflows heavily rely on **branching**. We've already seen this
 terminology in the context of the `main` branch. Now, we might be interested in
-adding a new feature to a code repository. When working collaborative, we create
-a **branch** off the `main` repository. This branch can be updated in parallel,
-without modifying the `main` branch. When we've committed all the changes to the
-feature branch, how do we go about incorporating them into the `main` branch? 
+adding a new feature to a code repository. When working collaboratively, we
+create a **branch** off the `main` repository. This branch can be updated in
+parallel, without modifying the `main` branch. When we've committed all the
+changes to the feature branch, how do we go about incorporating them into the
+`main` branch? 
 
 ![](../img/collaborative.png)
 
@@ -158,7 +163,8 @@ link](https://github.com/dlab-berkeley/Git-Playground).
    `git checkout -b BRANCH_NAME`. Choose a branch name that feels appropriate to
    you. Run `git status` afterward to see how things changed.
 
-4. **Commit a change.** Make a change to the README, stage it, and commit it. 
+4. **Commit a change.** Create a new file with some text, stage it, and commit
+   it.
 
 5. **Push the change.** Push the change on this branch to your remote repo.
    You'll still use `git push`, but the command is slightly different: it will
