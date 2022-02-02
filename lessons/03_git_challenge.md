@@ -24,7 +24,7 @@
    "contributors" A and B. 
 
 3. The maintainer creates a repository with a `README.md` file so that it can
-   immediately be cloned. 
+   immediately be cloned. This file is pushed to the remote.
 
 4. The maintainer adds contributors A and B as collaborators on the project
    (click "Settings" --> "Collaborators" --> "Add collaborator").
@@ -32,8 +32,9 @@
 5. The maintainer creates a file named `animals.txt` and adds their favorite
    animal to this file. 
 
-6. Contributors A and B clone this repository and each add their favorite animals
-   to this file. Stage, commit, and push the changes to the original repo.
+6. Contributors A and B clone this repository and each add their favorite
+   animals to this file. Stage, commit, and push the changes to the original
+   repo.
 
 7. Contributors A and B then create a pull request (click the "Pull Request"
    button) so the Maintainer can see the proposed changes. 
