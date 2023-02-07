@@ -1,7 +1,6 @@
 # D-Lab's Bash and Git Workshop
 
 [![Datahub](https://img.shields.io/badge/launch-datahub-blue)](https://dlab.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdlab-berkeley%2FBash-Git&urlpath=lab%2Ftree%2FBash-Git%2F)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dlab-berkeley/Bash-Git/HEAD)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 This repository contains the materials for D-Lab’s Bash and Git workshop, a fast
@@ -49,14 +48,6 @@ and a CalNet ID to log in. By using the DataHub, you can save your work and come
 back to it at any time. When you want to return to your saved work, just go
 straight to [Datahub](https://datahub.berkeley.edu), sign in, and you click on
 the `Bash-Git` folder. Then click on `New` -> `Terminal` to open a terminal on DataHub.
-
-If you don't have a Berkeley CalNet ID, you can still run some of these lessons in the
-cloud, by clicking this button:
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dlab-berkeley/Bash-Git/HEAD)
-
-Binder operates similarly to the D-Lab DataHub, but on a different set of
-servers. By using Binder, however, you cannot save your work.
 
 # Additional Resources
 
