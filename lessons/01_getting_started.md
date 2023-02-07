@@ -1,7 +1,7 @@
 # Installing Git on Your Computer
 
 In this workshop, we will be working with a version control software called
-`git`. 
+`git`.
 
 First, let's make sure you have `git` installed. You can find general install
 instructions on [Github](https://github.com/git-guides/install-git). The
@@ -34,7 +34,7 @@ provides additional tools to facilitate working with repositories. In order to
 keep your code safe, Github has some security settings in place that we need to
 work through before we can use it to its fullest extent.
 
-First, if you haven't already, create an authenticiation token which will be
+First, if you haven't already, create an authentication token which will be
 used in order to interact with Github. Go to this
 [link](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 and follow the steps to create the authentication token on Github.
@@ -59,8 +59,8 @@ Username: your_username
 Password: your_token
 ```
 
-The terminal will ask you for your Github username and authentication token,
-both of which we obtained in the previous two steps. Enter this information, and
+The terminal will ask you for your Github username and password (i.e. your token),
+sboth of which we obtained in the previous two steps. Enter this information, and
 then Github will go ahead and place the repository on your computer.
 
 # Next Up: Bash
