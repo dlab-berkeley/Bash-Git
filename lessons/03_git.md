@@ -63,9 +63,10 @@ Let's go through the process of making changes to a repository, step by step.
 
 1. **Creating a new repository on Github.** Go to this
    [link](https://docs.github.com/en/get-started/quickstart/create-a-repo) and
-   follow the instructions on how to create a new repository on Github. Once
-   you've done this, you have a remote repository (on Github's servers), but
-   **not** a local repository.
+   follow the instructions on how to create a new repository on Github. 
+   Make sure to tick the `Add a README file` box under "Initialize this 
+   repository with". Click on `Create repository`. You now have a remote 
+   repository (on Github's servers), but **not** a local repository.
 
 2. **Cloning.** We've done this with the `Bash-Git` repo. Cloning a repository
    means taking a remote repository, and copying it to our local machine to
