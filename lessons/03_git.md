@@ -3,7 +3,7 @@
 Imagine that you’re collaborating with one of your labmates on a project. You’re
 both making changes to functions in the codebase. At one point, you both have
 changed the same lines in a particular function. How do you go about merging
-your changes so that you’re both using the same code? 
+your changes so that you’re both using the same code?
 
 This is the rationale for version control: a system that manages and records
 changes to a codebase. The most commonly used version control system is called
@@ -34,14 +34,14 @@ In the personal workflow, you are largely going to be the only person adding to
 the repository. You have one "branch", or version of the code: it'll likely be
 called the `main` branch (in older Github repositories, it may be called the
 `master` branch). Every time you make changes to the code, you'll add them to
-the `main` branch. So what's the benefit to using `git`? 
+the `main` branch. So what's the benefit to using `git`?
 
 ![personal_workflow](../img/personal.png)
 
 `git` keeps track of the differences in the repository each time you make a
 change. The **entire** history of the repository is tracked by `git`. If you
 realize you made a mistake in your code, you can always roll it back to a
-previous timepoint. 
+previous timepoint.
 
 Each step in the Personal workflow is actually comprised of a set of smaller
 steps. Before we go through each step, we need to make a distinction between two
@@ -85,13 +85,14 @@ Let's go through the process of making changes to a repository, step by step.
 
 5. **Staging a change.** The first step to codifying this change in the `git`
    history is to stage it, which is done with the `git add` command.
-   Once a change is "added", it is placed in a staging area. You can think of 
-   this as a "proposal" for the next record in the Git history. The proposal is 
+   Once a change is "added", it is placed in a staging area. You can think of
+   this as a "proposal" for the next record in the Git history. The proposal is
    made permanent in the following step. To add the file, run `git add test.txt`.
-   **Note**: "add" does not have the exact same meaning as the English word: 
-   it actually means adding an operation. E.g., f we remove a file locally, and 
-   want to remove it from the staging area and remote repo, we still do "git add 
-   file"!
+
+   **Note**: "add" does not have the exact same meaning as the English word:
+   it actually means adding an operation. For instance, if we remove test.txt
+   locally by throwing it in the trash, and we then want to remove it from the
+   staging area and remote repo, we still do `git add test.txt`!
 
 6. **Committing a change.** Next, once we've added all the changes we want to
    the staging area, we need to commit them. Committing changes entails taking a
@@ -99,7 +100,7 @@ Let's go through the process of making changes to a repository, step by step.
    `git` history. Each commit needs an accompanying message to say what the
    reason for the commit is. Make sure these messages are informative - your
    future self will thank you! Commit the file by running `git commit -m "adding
-   test file"`. 
+   test file"`.
 
 7. **Pushing to the remote.** Right now, the local repo knows about the changes
    we did, but the remote repo doesn't. So, we need to synchronize the two by
@@ -130,7 +131,7 @@ adding a new feature to a code repository. When working collaboratively, we
 create a **branch** off the `main` repository. This branch can be updated in
 parallel, without modifying the `main` branch. When we've committed all the
 changes to the feature branch, how do we go about incorporating them into the
-`main` branch? 
+`main` branch?
 
 ![](../img/collaborative.png)
 
@@ -163,8 +164,11 @@ link](https://github.com/dlab-berkeley/Git-Playground).
 2. **Cloning.** Clone the forked repo to your local machine.
 
 3. **Branching.** Create a new branch on your local machine using the command
-   `git checkout -b BRANCH_NAME`. Choose a branch name that feels appropriate to
+   `git checkout -b BRANCH_NAME` or `git branch -c BRANCH_NAME`.
+   Choose a branch name that feels appropriate to
    you. Run `git status` afterward to see how things changed.
+   You can check out which branches you have, and which you are currently on,
+   by running `git branch`.
 
 4. **Commit a change.** Create a new file with some text, stage it, and commit
    it.
@@ -183,8 +187,21 @@ link](https://github.com/dlab-berkeley/Git-Playground).
 
 ![pr](../img/pr.png)
 
+# Removing git repositories
+
+* **Local:** If you want to delete local git-related information (like
+  branches and versions), all you have to do is delete the `.git` directory in
+  the root-directory of your repository. Note that `.git` directories are hidden
+  by default, so you'll need to be able to view hidden files to delete it.
+  If you want to delete everything (data, code, etc.), just delete the whole
+  directory.
+
+* **Remote** : If you want to delete a remote repository, navigate to GitHub and
+go to Settings, then Danger Zone (at the bottom of the Settings page). Warning:
+Once you delete a repository, there is no going back.
+
+# Learning more
+
 That's the workflow! There are other `git` practices we didn't cover - handling
 merge conflicts, rebasing, etc. As you get deeper into `git`, you can peruse the
 Github documentation for tips on how to do these more advanced `git` commands.
-
-Open up `03_git_challenge.md` and give Challenge 2 a shot!
