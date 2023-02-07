@@ -46,7 +46,7 @@ allows you to run the materials on UC Berkeley's servers.
 No installation is necessary from your end - you only need an internet browser
 and a CalNet ID to log in. By using the DataHub, you can save your work and come
 back to it at any time. When you want to return to your saved work, just go
-straight to [Datahub](https://datahub.berkeley.edu), sign in, and you click on
+straight to [Datahub](https://datahub.berkeley.edu), sign in, and click on
 the `Bash-Git` folder. Then click on `New` -> `Terminal` to open a terminal on DataHub.
 
 # Additional Resources
