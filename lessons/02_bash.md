@@ -15,31 +15,31 @@ Let's get some terminology out of the way:
 * What makes a terminal special is the **shell** it uses to accept input and
   print output. So, your terminal might run a **bash** shell, which is one of
   the most commonly used shells. But there are others - for example, **zsh** or
-  Z shell is starting to be rolled out by default on Macs. If you're worried
-  about which one you're using, don't stress too much. At this point, the
+  Z shell is starting to be rolled out by default on Macs. At this point, the
   differences between shells lie in pretty niche tasks that won't matter for
   this workshop.
 
 So, we have a terminal that runs a shell. What exactly does the shell do?
 
-The shell allows us to interact with our filesystem in a variety of ways:
+The shell allows us to interact with our filesystem in different ways:
 navigating through our folders, creating new files, editing existing ones, etc.
 We can also run software from the terminal. For example, you might be familiar
-with running a Jupyter Notebook from the terminal, or using `conda`
+with running a Jupyter Labs or Python from the terminal, or using `conda`
 environments.
 
 You might be wondering: why bother even using a shell when we have software
 (specifically, Graphical User Interfaces, or GUIs) that can let us do all these
 things for us? There's a lot of reasons for this (see
 [here](https://ux.stackexchange.com/questions/101990/why-are-terminal-consoles-still-used)
-for some discussion), but one short answer is that using the terminal is a
+for some discussion). One short answer is that using the terminal is a
 standardized, efficient, and expressive way of completing general purpose tasks.
 The downside is that it comes with a bit of a learning curve. Once you get over
-the hump, though, you'll find yourself leaning more into the terminal than any
-GUI. The goal of this workshop is to get you on your way past the learning
-curve.
+the hump, though, you'll find yourself leaning more into the terminal.
+The goal of this workshop is to get you on your way past the learning curve.
 
 Let's get started by going over some basic bash commands.
+
+
 # Basic Bash Commands
 
 Go ahead and open up a terminal. What do you see? It might look something like
