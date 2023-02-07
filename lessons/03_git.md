@@ -92,7 +92,7 @@ Let's go through the process of making changes to a repository, step by step.
    *Note*: "add" does not have the exact same meaning as the English word:
    it actually means adding an operation. For instance, if we remove test.txt
    locally by throwing it in the trash, and we then want to remove it from the
-   staging area and remote repo, we still do `git add test.txt`!
+   staging area and remote repo, we still do `git add test.txt`! 
 
 6. **Committing a change.** Next, once we've added all the changes we want to
    the staging area, we need to commit them. Committing changes entails taking a
