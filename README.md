@@ -23,12 +23,13 @@ are available on [Github](https://github.com/git-guides/install-git).
   installed, you can install it using [Homebrew](https://brew.sh).
 * **Linux:** You can use whatever package management system your distribution
   uses to install `git`. For Debian/Ubuntu, this is `apt`. For Fedora, this will
-  be `dnf`. 
+  be `dnf`.
 
 Once `git` is installed on your computer, open up the Markdown file
 `lessons/01_getting_started.md` to create a Github account and set up
 authentication tokens. Then, we'll download these materials using a `git clone`
 step.
+
 ## Is Bash or Git not Working on Your Computer?
 
 If you do not have `git` installed and the materials loaded on your workshop by
@@ -72,9 +73,8 @@ upcoming events, learn about how to utilize our
 
 # Contributors
 
+* [Tom van Nuenen](https://dlab.berkeley.edu/people/tom-van-nuenen)
 * [Pratik Sachdeva](https://dlab.berkeley.edu/people/pratik-sachdeva)
 * [Evan Muzzall](https://dlab.berkeley.edu/people/evan-muzzall)
 * [Aniket Kesari](https://dlab.berkeley.edu/people/aniket-kesari)
 * [Aaron Culich](https://dlab.berkeley.edu/people/aaron-culich)
-
-
