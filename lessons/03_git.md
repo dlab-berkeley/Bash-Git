@@ -84,11 +84,14 @@ Let's go through the process of making changes to a repository, step by step.
    `git status` and see what happens.
 
 5. **Staging a change.** The first step to codifying this change in the `git`
-   history is to stage it, which is done with the `git add` command. Once a
-   change is "added", it is placed in a staging area. You can think of this as a
-   "proposal" for the next record in the Git history. The proposal is made
-   permanent in the following step. To add the file, run `git add test.txt`.
-   Then run `git status` to see what happened.
+   history is to stage it, which is done with the `git add` command.
+   Once a change is "added", it is placed in a staging area. You can think of 
+   this as a "proposal" for the next record in the Git history. The proposal is 
+   made permanent in the following step. To add the file, run `git add test.txt`.
+   **Note**: "add" does not have the exact same meaning as the English word: 
+   it actually means adding an operation. E.g., f we remove a file locally, and 
+   want to remove it from the staging area and remote repo, we still do "git add 
+   file"!
 
 6. **Committing a change.** Next, once we've added all the changes we want to
    the staging area, we need to commit them. Committing changes entails taking a
