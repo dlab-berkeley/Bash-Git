@@ -89,7 +89,7 @@ Let's go through the process of making changes to a repository, step by step.
    this as a "proposal" for the next record in the Git history. The proposal is
    made permanent in the following step. To add the file, run `git add test.txt`.
 
-   **Note**: "add" does not have the exact same meaning as the English word:
+   *Note*: "add" does not have the exact same meaning as the English word:
    it actually means adding an operation. For instance, if we remove test.txt
    locally by throwing it in the trash, and we then want to remove it from the
    staging area and remote repo, we still do `git add test.txt`!
