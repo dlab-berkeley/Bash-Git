@@ -16,6 +16,9 @@ introduction to both these topics.
 
 ## Installation Instructions
 
+Before attendingh the workshop, please ensure you have gone through these
+instructions.
+
 You'll need to make sure `git` is installed on your system. General instructions
 are available on [Github](https://github.com/git-guides/install-git).
 

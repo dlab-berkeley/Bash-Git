@@ -112,8 +112,9 @@ Try the following commands:
   folder name. How can you check to see if the folder was created?
 * `touch test.txt`: This will create a file named `test.txt`.
 * `cp`: Copy and paste. There are two arguments here: the source and the
-  destination. 
-  * Trying copying `test.txt` to the `solutions` folder.
+  destination.
+  * Try copying `test.txt` to the `solutions` folder. You need to add in the
+  relative path when setting the destination (`solutions/test.txt`).
 * `cp -r`: Bash commands sometimes come with **flags**, which are additional
   specifications to how we run the command. Flags are always preceded by one or
   two dashes. The `-r` flag for `cp` indicates we should do a recursive copy.
@@ -139,11 +140,12 @@ some approaches to view their contents quickly:
   * Try using `cat` on one of the files in this directory.
 * `less`: This is useful when your file is too big for `cat`, and you quickly
   just want to see a small portion of it.
-  * Try using `less` on one of the file in this directory.
+  * Try using `less` on one of the file in this directory. Note: this might
+  not work if you're using DataHub.
 
 These commands are useful for quickly viewing files, but how about editing
 files? There are several programs in bash you can use to do this: `vim`, `nano`,
-and `emacs` are some examples. 
+and `emacs` are some examples.
 
 `vim` is most likely to already be installed on your computer, so you can give
 that a shot. There's a whole assortment of keyboard shortcuts for using `vim`,
@@ -158,12 +160,12 @@ but here's enough to create a simple file:
 5. To save and quit the file, you need to go to command mode. Press `:` to enter
    command mode.
 6. Enter `wq` followed by `Enter`. This is telling `vim` to **w**rite the
-   changes and **q**uit. 
+   changes and **q**uit.
 
 ## Reference: Keyboard Shortcuts
 
 Here are some keyboard shortcuts you can keep in mind as you become more
-familiar with bash: 
+familiar with bash:
 
 * Up/down arrow keys: cycle through previous commands.
 * `Option + `left/right arrow keys:* Move the cursor word by word.
