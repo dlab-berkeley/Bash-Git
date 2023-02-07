@@ -16,6 +16,7 @@ Use bash commands to do the following:
 
 7. Delete the file from your `challenge` folder.
 
-8. Delete the `challenge` folder. Remember, what flags do you have to add to
-   remove a folder?
+8. Back out of the `challenge` folder using `cd..`.
 
+9. Delete the `challenge` folder. Remember, what flags do you have to add to
+   remove a folder?
