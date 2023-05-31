@@ -1,3 +1,2 @@
 some text
-me@laptop ~ % 
 another change
