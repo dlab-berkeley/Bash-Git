@@ -1,4 +1,4 @@
-# D-Lab's Bash and Git Workshop
+# D-Lab's Bash and Git Workshop TEST TEST
 
 [![Datahub](https://img.shields.io/badge/launch-datahub-blue)](https://dlab.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdlab-berkeley%2FBash-Git&urlpath=lab%2Ftree%2FBash-Git%2F)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
