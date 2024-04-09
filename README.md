@@ -4,8 +4,13 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 This repository contains the materials for D-Lab’s Bash and Git workshop, a fast
-introduction to using the terminal for `git`. No prior experience in either Bash
-or Git is necessary.
+introduction to using the terminal for `git`. 
+
+### Prerequisites
+No prior experience in either Bash or Git is necessary.
+
+Check D-Lab's [Learning Pathways](https://dlab-berkeley.github.io/dlab-workshops/python_path.html) to figure out which of our workshops to take!
+
 
 ## Workshop Goals
 
